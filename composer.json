@@ -1,0 +1,26 @@
+{
+	"name": "lookyman/pratchett",
+	"description": "",
+	"keywords": ["Nette", "Terry Pratchett"],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Lukáš Unger",
+			"email": "looky.msc@gmail.com",
+			"homepage": "https://lookyman.net"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"nette/di": "~2.3"
+	},
+	"require-dev": {
+		"nette/robot-loader": "~2.3",
+		"phpunit/phpunit": "~4.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"lookyman\\Pratchett\\": "src/"
+		}
+	}
+}
